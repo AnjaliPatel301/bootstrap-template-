@@ -1,1 +1,31 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav ul li{
+    list-style: none;
+}
+#nav .navbar-brand{
+     background: radial-gradient( blue,rgb(248, 126, 238));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+}
+#nav .navbar-brand span{
+     background: radial-gradient(blue,pink);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+}
+#team i{
+    margin-right: 10px;
+}
+#footer a{
+     background: radial-gradient( blue,rgb(248, 126, 238));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+}
+#footer i{
+    margin-right: 10px;
+}
